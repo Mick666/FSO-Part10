@@ -32,9 +32,9 @@ const AppBar = () => {
                 </Link>
             </ScrollView>
             <ScrollView horizontal>
-                <TouchableWithoutFeedback>
+                <Link to='/' component={TouchableWithoutFeedback}>
                     <Text style={styles.appBarText}>Repositories</Text>
-                </TouchableWithoutFeedback>
+                </Link>
             </ScrollView>
 
         </View>);
